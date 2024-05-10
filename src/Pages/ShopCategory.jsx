@@ -48,6 +48,7 @@ const ShopCategory = (props) => {
         <div className={`shopcategory-sort_${theme}`}>
           Sort By
           <select
+            style={{ border: "none", marginLeft: '3px' }}
             name="shopcategory-sort"
             value={sorting}
             onChange={(e) => setSorting(e.target.value)}
